@@ -1,0 +1,9 @@
+If some class of tailwind not enable just delete output.class
+and using this one 
+
+--------------------------------------------------------------
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+--------------------------------------------------------------
+
+on terminal it just reconfiguration again
+
