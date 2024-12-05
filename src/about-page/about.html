@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About page</title>
     <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 <body>
     <header class="md:mt-6">
@@ -22,11 +23,12 @@
             </ul>
         </nav>
     </header>
-    <div class="mx-auto max-w-[700px] pt-20">
-        <h1 class="font-bold text-2xl">About me</h1>
-        <img src="assets/film-pic (1).jpg" class="rounded-[20px] w-[400px] h-auto mt-6" alt="">
+    <div class="mx-auto max-w-[700px] border-red-500">
+        <div class="flex justify-center">
+            <img src="assets/film-pic (1).jpg" class="rounded-[20px] w-[400px] h-auto mt-12" alt="">
+        </div>
         <p class="text-grey_primary mt-10 max-w-[700px] leading-[1.8]">
-            In Grade 11, I had the opportunity to join Assumption College's Institute of  In Grade 11, I had the opportunity to join Assumption College's Institute of Technology (Space AC), which works on space technology. I take on the role of programmer to programming various projects. In Grade 11, I had the opportunity to join Assumption College's Institute of 
+            In Grade 11, I had the opportunity to join Assumption College's Institute of Technology (Space AC), which works on space technology. I take on the role of programmer to program various projects.I take on the role of programmer to program various projects.
         </p>
     </div>
     <div class="mx-auto pt-20 flex justify-center">
@@ -48,5 +50,11 @@
             </ul>
         </div>
     </div>
+    <div class="mx-auto max-w-[700px] pt-8">
+        <h2 class="font-bold text-xl">Location</h2>
+        <div style = "height: 300px; width: 700px; border-radius: 20px;" class="mb-20 mt-5" id="map"></div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="map.js"></script>
 </body>
 </html>
