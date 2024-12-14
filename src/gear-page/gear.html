@@ -6,6 +6,7 @@
     <title>Gear page</title>
     <link rel="stylesheet" href="../output.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="gear.css">
 </head>
 <body>
     <header class="md:mt-6">
@@ -23,5 +24,41 @@
             </ul>
         </nav>
     </header>
+    <div id="item" class="flex flex-col mx-auto max-w-[700px] justify-center mt-14">
+        <h2 class="text-xl text-grey_primary">Apps</h2>
+        <!-- App -->
+        <div class="flex flex-row mt-7">
+            <ul class="flex flex-row justify-between gap-x-[30px]">
+                <li class="w-[335px] border rounded-[15px] flex flex-row items-center p-[15px] shadow-custom hover:opacity-75 duration-100">
+                    <div class="flex flex-row items-center">
+                        <img class = "w-14 h-auto mr-5" src="../assets/vscode-logo.png" alt="">
+                        <div>
+                            <h3 class="font-bold">
+                                Visual Studio Code
+                            </h3>
+                            <p class="text-grey_primary">Visual Studio Code is a powerful and popular code editor tool.</p>
+                        </div>
+                        <button class="w-[120px] h-[40px] bg-black text-white border border-gray-800 rounded-full font-semibold text-sm flex items-center justify-center transition-transform duration-300 hover:shadow-lg hover:-translate-y-0.5 active:shadow-none active:translate-y-0">
+                            Get
+                        </button>                        
+                    </div>
+                </li>
+                <li class="w-[335px] border rounded-[15px] flex flex-row items-center p-[15px] shadow-custom hover:opacity-75 duration-100">
+                    <div class="flex flex-row items-center">
+                        <img class="w-12 h-auto mr-5" src="../assets/figma-logo.webp" alt="">
+                        <div>
+                            <h3 class="font-bold">
+                                Figma
+                            </h3>
+                            <p class="text-grey_primary">Figma is a design tool for creating digital interfaces and prototypes online.</p>
+                        </div>
+                        <button class="w-[120px] h-[40px] bg-black text-white border border-gray-800 rounded-full font-semibold text-sm flex items-center justify-center transition-transform duration-300 hover:shadow-lg hover:-translate-y-0.5 active:shadow-none active:translate-y-0">
+                            Get
+                        </button>         
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
