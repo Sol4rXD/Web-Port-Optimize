@@ -612,6 +612,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-52 {
+  margin-top: 13rem;
+}
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -622,10 +626,6 @@ video {
 
 .mt-\[-5px\] {
   margin-top: -5px;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
 }
 
 .flex {
@@ -762,18 +762,6 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.p-\[5px\] {
-  padding: 5px;
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
-.p-\[10px\] {
-  padding: 10px;
-}
-
 .p-\[15px\] {
   padding: 15px;
 }
@@ -867,12 +855,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-md {
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .transition-transform {
   transition-property: transform;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -902,20 +884,16 @@ video {
   color: rgb(78 78 78 / var(--tw-text-opacity));
 }
 
-.hover\:opacity-50:hover {
-  opacity: 0.5;
-}
-
 .hover\:opacity-20:hover {
   opacity: 0.2;
 }
 
-.hover\:opacity-75:hover {
-  opacity: 0.75;
+.hover\:opacity-50:hover {
+  opacity: 0.5;
 }
 
-.hover\:opacity-100:hover {
-  opacity: 1;
+.hover\:opacity-75:hover {
+  opacity: 0.75;
 }
 
 .hover\:shadow-lg:hover {
